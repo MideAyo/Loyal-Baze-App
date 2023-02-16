@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 342px) {
+  .fsize {
+    font-size: 0.6rem;
+  }
+  .fsize1 {
+    font-size: 1.6rem;
+  }
+  .formSize {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 342px) and (max-width: 400px) {
+  .fsize {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .non {
+    display: none;
+  }
+  .btn-width {
+    width: 100%;
+  }
+  .bt-width {
+    width: 100%;
+    padding: 4rem;
+  }
+  .btn-width2 {
+    width: 60%;
+  }
+  .pad {
+    padding: 0.5rem;
+  }
+  .marg {
+    margin-top: 6rem;
+  }
+  .textie {
+    font-size: 1.7rem;
+  }
+  .pee {
+    font-size: 1.2rem;
+  }
+  .nav-btn {
+    padding: 0.4rem;
+  }
+  .gapp {
+    gap: 1rem;
+  }
+  .center {
+    align-items: center;
+  }
+  .marj {
+    align-self: start;
+    margin-top: 0;
+  }
+  .end {
+    align-self: end;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #121b27;
+}
